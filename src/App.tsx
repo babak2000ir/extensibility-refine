@@ -1,13 +1,12 @@
-import { useState } from 'react'
-import { Refine, WelcomePage } from "@refinedev/core";
+import { Refine } from "@refinedev/core";
+import { dataProvider } from "./providers/data-provider";
+import { ProductCard } from "./entities/product/product-card";
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <Refine>
-      <WelcomePage />
+    <Refine dataProvider={dataProvider}>
+      <ProductCard id="123" />
     </Refine>
   )
 }
