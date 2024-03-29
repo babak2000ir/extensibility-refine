@@ -9,10 +9,18 @@
     "serve": "refine serve"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/lab": "^5.0.0-alpha.169",
+    "@mui/material": "^5.15.14",
+    "@mui/x-data-grid": "^7.1.0",
     "@refinedev/cli": "^2.16.27",
     "@refinedev/core": "^4.48.0",
+    "@refinedev/mui": "^5.14.5",
+    "@refinedev/react-hook-form": "^4.8.15",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.51.2"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
