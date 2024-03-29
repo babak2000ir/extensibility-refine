@@ -12,8 +12,8 @@ function App() {
     <Refine dataProvider={dataProvider}>
       <ProductCreate />
       <ProductList />
-      <ProductCard id="123" />
-      <ProductEditCard id="123" />
+      <ProductCard id="6" />
+      <ProductEditCard id="6" />
       <ProductTable />
     </Refine>
   )
